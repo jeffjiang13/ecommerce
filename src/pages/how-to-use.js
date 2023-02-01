@@ -36,25 +36,16 @@ const HowToUsePage = (props) => {
             <div id="#builtBy" ref={builtRef}>
               <p>
                 This theme is proudly brought to you by the team at{' '}
-                <Button target={true} href="https://matterdesign.com.au/">
-                  Matter Design & Digital
+                <Button target={true} href="">
+                  Design & Digital
                 </Button>{' '}
-                (Matter.).
+                ().
               </p>
               <p>
-                The Sydney theme is built for Netlify as an ecommerce theme
-                suitable for JAMStack archtitecture. This theme is free to use
-                through Netlify’s GitHub account, and can be used with any
-                ecommerce platform that support a headless architecture.
+
               </p>
               <p>
-                Matter. has pre-built connections to microservices available
-                through its JAMM.™ solution. JAMM.™ is a system built to run a
-                headless architecture. JAMM.™ can connect micro-services,
-                orchestrate data and publish websites to an edge network for
-                lighting fast performce. JAMM.™ creates a server-side rendered
-                website that is fast, stable and scalable for high traffic
-                events.
+
               </p>
               <Button target={true} href="https://jamm.matter.design/">
                 Read more about JAMM.™
@@ -65,7 +56,7 @@ const HowToUsePage = (props) => {
                 style={{ display: 'block', height: 'auto' }}
               />
             </div>
-            <h3>Best of Breed Tools</h3>
+            <h3>Best</h3>
             <div id={'#tools'} ref={toolsRef}>
               <p>
                 Headless architecture enables Composable Commerce. What this
@@ -84,9 +75,7 @@ const HowToUsePage = (props) => {
                 advantage.
               </p>
               <p>
-                Matter. has been innovating since 2003, and we have aligned with
-                companies that do it best. The following technologies are either
-                currently available or are on our roadmap for JAMM.™.
+
               </p>
 
               <strong>Ecommerce:</strong>
@@ -152,9 +141,9 @@ const HowToUsePage = (props) => {
               <p>
                 <Button
                   target={true}
-                  href="https://www.matterdesign.com.au/contact/"
+                  href=""
                 >
-                  Contact the team at Matter.
+                  Contact
                 </Button>
               </p>
             </div>

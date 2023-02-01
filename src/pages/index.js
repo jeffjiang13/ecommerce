@@ -29,9 +29,9 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'/banner1.png'}
-        title={'Essentials for a cold winter'}
-        subtitle={'Discover Autumn Winter 2021'}
+        image={'/banner1.jpg'}
+        title={'Spring is here'}
+        subtitle={'Discover Autumn Winter 2023'}
         ctaText={'shop now'}
         ctaAction={goToShop}
       />
@@ -39,7 +39,7 @@ const IndexPage = () => {
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
+          This is a demonstration of the Brand theme for verse by{' '}
           <span className={styles.gold}>matter design.</span>
         </p>
         <p>
@@ -74,11 +74,11 @@ const IndexPage = () => {
       <div className={styles.highlightContainer}>
         <Container size={'large'} fullMobile>
           <Highlight
-            image={'/highlight.png'}
+            image={'/highlight.webp'}
             altImage={'highlight image'}
-            miniImage={'/highlightmin.png'}
+            miniImage={'/highlightmin.jpg'}
             miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
+            title={'Luxury wear'}
             description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
             textLink={'shop now'}
             link={'/shop'}
@@ -88,7 +88,7 @@ const IndexPage = () => {
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
+        <Hero image={'/banner2.webp'} title={`-50% off \n All Essentials`} />
         <div className={styles.linkContainers}>
           <Link to={'/shop'}>WOMAN</Link>
           <Link to={'/shop'}>MAN</Link>
@@ -98,7 +98,7 @@ const IndexPage = () => {
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'about Brand'}
         quote={
           '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
         }
@@ -115,7 +115,7 @@ const IndexPage = () => {
       {/* Promotion */}
       <div className={styles.sustainableContainer}>
         <Hero
-          image={'/banner3.png'}
+          image={'/banner3.webp'}
           title={'We are Sustainable'}
           subtitle={
             'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
@@ -130,13 +130,13 @@ const IndexPage = () => {
       <div className={styles.socialContainer}>
         <Title
           name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
+          subtitle={'Tag @brand to be featured.'}
         />
         <div className={styles.socialContentGrid}>
-          <img src={`/social/socialMedia1.png`} alt={'social media 1'} />
-          <img src={`/social/socialMedia2.png`} alt={'social media 2'} />
-          <img src={`/social/socialMedia3.png`} alt={'social media 3'} />
-          <img src={`/social/socialMedia4.png`} alt={'social media 4'} />
+          <img src={`/social/socialMedia1.jpg`} alt={'social media 1'} />
+          <img src={`/social/socialMedia2.jpg`} alt={'social media 2'} />
+          <img src={`/social/socialMedia3.jpg`} alt={'social media 3'} />
+          <img src={`/social/socialMedia4.jpg`} alt={'social media 4'} />
         </div>
       </div>
       <AttributeGrid />

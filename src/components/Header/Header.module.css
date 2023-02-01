@@ -1,7 +1,7 @@
 .root {
     position: fixed;
     width: 100%;
-    background-color: var(--standard-white);
+    background-color: var(--standard-grey);
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
     z-index: 50;
 }
@@ -256,5 +256,5 @@
     .searchContainer h4 {
         font-size: 32px;
         line-height: 42px;
-    }    
+    }
 }

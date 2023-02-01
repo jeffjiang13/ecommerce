@@ -19,6 +19,8 @@
     color: var(--standard-white);
     max-width: 500px;
     gap: 40px;
+    bottom: '20px',
+
 }
 
 .title {
@@ -30,7 +32,7 @@
 }
 
 .subtitle {
-    
+
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -39,11 +41,11 @@
 
 .ctaButton {
     width: 180px;
-    
+
 }
 
 .ctaLink {
-    
+
     text-transform: uppercase;
     color: var(--standard-white);
     border-bottom: 1px solid var(--standard-white);
@@ -56,7 +58,7 @@
 .header {
     color: var(--standard-white);
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 17px;
     text-transform: uppercase;
 }

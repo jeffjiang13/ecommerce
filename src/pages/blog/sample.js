@@ -13,20 +13,16 @@ const SamplePage = (props) => {
           <div className={styles.blogContainer}>
             <Blog
               category={'design'}
-              title={'Friends of Sydney: Flora Fricker'}
-              image={'/blogFeatured.png'}
+              title={'Friends of brand: F. Fricker'}
+              image={'/blogFeatured.jpg'}
               alt={''}
             >
               <div className={styles.content}>
                 <p className={styles.excerpt}>
-                  London-based floral designer Flora Fricker champions seasonal
-                  British flowers and UK producers in her beautiful and
-                  sustainable creations. This season, we worked with Flora to
-                  style Sunspel stores for Christmas, for which she produced
-                  eye-catching sustainably sourced wreaths.
+                London-based floral designer F. Fricker champions seasonal American flowers and US producers in her beautiful and sustainable creations. This season, she worked with Sunspel stores in New York to style their stores for Christmas, for which she produced eye-catching sustainably sourced wreaths.
                 </p>
                 <p className={styles.blogParagraph}>
-                  Delaware limited liability company (The Sydney) collects
+                  Delaware limited liability company (The Brand) collects
                   personal information that you voluntarily provide when
                   applying or registering for an account with The Upside or
                   making a purchase on The Upside website; www.theupside.com
@@ -52,7 +48,7 @@ const SamplePage = (props) => {
                   <img src={'/cloth.png'} alt={'sample1'} />
                 </div>
                 <div className={styles.imageContainer}>
-                  <img src={'/collections/collection1.png'} alt={'sample2'} />
+                  <img src={'/collections/collection1.jpg'} alt={'sample2'} />
                 </div>
               </div>
               <div className={styles.content}>

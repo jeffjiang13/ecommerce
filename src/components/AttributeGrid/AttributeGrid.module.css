@@ -1,6 +1,6 @@
 .root {
     width: 100%;
-    background-color: var(--standard-light-grey);
+    background-color: var(--standard-grey);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 50px 0px;

@@ -17,9 +17,9 @@ const BlogPage = (props) => {
     <Layout disablePaddingBottom>
       <div className={styles.root}>
         <Hero
-          maxWidth={'400px'}
-          image={'/blogCover.png'}
-          title={`The new standard of Closing`}
+          maxWidth={'600px'}
+          image={'/blogCover.jpg'}
+          title={`The new standard`}
           ctaLink={'read story'}
           ctaTo={'/blog/sample'}
           header={'design'}
