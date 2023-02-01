@@ -2,8 +2,8 @@
   "name": "gatsby-ecommerce-theme",
   "version": "1.0.0",
   "private": true,
-  "description": "e-commerce.",
-  "author": " ",
+  "description": "An e-commerce theme designed by Matter Design for Netlify.",
+  "author": "Matter Design",
   "keywords": [
     "gatsby"
   ],
